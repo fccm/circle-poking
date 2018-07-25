@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<circle_poking>
+  <window
+     width="640"
+     height="480" />
+
+  <game_difficulty_levels>
+
+    <level difficulty="easy">
+      <time first_round="40" increase="10" />
+      <circles number="6" increase="1" max_collided="4">
+        <radius_range min="3.0" max="5.0" />
+        <speed_range min="0.01" max="0.03" />
+      </circles>
+    </level>
+
+    <level difficulty="normal">
+      <time first_round="60" increase="20" />
+      <circles number="10" increase="2" max_collided="2">
+        <radius_range min="2.0" max="6.0" />
+        <speed_range min="0.01" max="0.04" />
+      </circles>
+    </level>
+
+    <level difficulty="hard">
+      <time first_round="90" increase="30" />
+      <circles number="12" increase="4" max_collided="0">
+        <radius_range min="2.0" max="6.0" />
+        <speed_range min="0.01" max="0.04" />
+      </circles>
+    </level>
+
+  </game_difficulty_levels>
+</circle_poking>
